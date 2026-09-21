@@ -1,0 +1,115 @@
+/* General Page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf7f8;
+    color: #333333;
+}
+
+/* Header */
+header {
+    background-color: #9b3d6b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background-color: #333333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #ffb6d2;
+}
+
+/* Main Content */
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Products */
+.products {
+    text-align: center;
+    padding: 30px;
+}
+
+.products h2 {
+    color: #9b3d6b;
+}
+
+/* Individual Product */
+.product {
+    display: inline-block;
+    width: 28%;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+/* Product Images */
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Product Name */
+.product h3 {
+    color: #555555;
+}
+
+/* Button */
+button {
+    background-color: #9b3d6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #702b4d;
+}
+
+/* Special Offer */
+aside {
+    text-align: center;
+    background-color: #f8d9e5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
